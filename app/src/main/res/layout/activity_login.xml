@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.mindtoheart.licenta.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:background="@drawable/top_background2"
+            >
+
+            <TextView
+                android:id="@+id/textView_login_head"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="70dp"
+                android:text="Vă rugăm să vă logați"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginRight="15dp"
+
+            android:layout_marginBottom="15dp"
+
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:id="@+id/RL_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/imageViewEmail"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:id="@+id/textView_login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toEndOf="@+id/imageViewEmail"
+                    android:padding="6dp"
+                    android:text="E-mail"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/divider_email"
+                    android:layout_width="220dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textView_login_email"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editText_login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView_login_email"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/imageViewEmail"
+                    android:background="@color/transparent"
+                    android:hint="Introduceți e-mailul"
+                    android:inputType="textEmailAddress"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/darker_gray"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RL_email"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/imageViewPwd"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/password" />
+
+
+                <TextView
+                    android:id="@+id/textView_login_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toEndOf="@+id/imageViewPwd"
+                    android:padding="6dp"
+                    android:text="Parola"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/divider_pwd"
+                    android:layout_width="220dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textView_login_pwd"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editText_login_pwd"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView_login_pwd"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/imageViewPwd"
+                    android:background="@color/transparent"
+                    android:hint="Introduceți parola"
+                    android:inputType="textPassword"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/darker_gray"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_show_hide_pwd"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_below="@+id/textView_login_pwd"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp" />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RL_pwd"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="70dp"
+
+                style="@style/MyButtonStyle"
+                android:text="Logare"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/button_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_login"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"
+                android:text="Aţi uitat parola?"
+                android:textStyle="bold"
+                style="@style/MyButtonStyle"/>
+
+            <ProgressBar
+                android:id="@+id/progressB"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:elevation="10dp"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

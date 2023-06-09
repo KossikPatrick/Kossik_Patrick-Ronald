@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mindtoheart.licenta.RegisterActivity"
+    android:background="@drawable/background1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/top_background2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_head"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Vă rugăm completați detaliile pentru înregistrare"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-140dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:id="@+id/RL_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/imageViewName"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/name" />
+
+            <TextView
+                android:id="@+id/textView_register_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imageViewName"
+                android:padding="6dp"
+                android:text="Numele dumneavoastră:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider_name"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView_register_full_name"
+                android:layout_centerHorizontal="true"
+                android:background="@color/darker_gray" />
+
+            <EditText
+                android:id="@+id/editText_register_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register_full_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/imageViewName"
+                android:background="@color/transparent"
+                android:hint="Introduceți numele"
+                android:inputType="textPersonName"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL_name"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/imageViewEmail"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/textView_register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imageViewEmail"
+                android:padding="6dp"
+                android:text="Adresa de e-mail:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider_email"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView_register_email"
+                android:layout_centerHorizontal="true"
+                android:background="@color/darker_gray" />
+
+            <EditText
+                android:id="@+id/editText_register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register_email"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/imageViewEmail"
+                android:background="@color/transparent"
+                android:hint="Introduceți adresa de e-mail"
+                android:inputType="textEmailAddress"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL_email"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/imageViewDob"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ic_birthday" />
+
+            <TextView
+                android:id="@+id/textView_register_dop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imageViewDob"
+                android:padding="6dp"
+                android:text="Data nașterii (dd/mm/yyyy) :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider_dob"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView_register_dop"
+                android:layout_centerHorizontal="true"
+                android:background="@color/darker_gray" />
+
+            <EditText
+                android:id="@+id/editText_register_dop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register_dop"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/imageViewDob"
+                android:background="@color/transparent"
+                android:focusable="false"
+                android:hint="Introduceți data nașterii"
+                android:inputType="date"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL_dob"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/imageViewGender"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_gender" />
+
+            <TextView
+                android:id="@+id/textView_register_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewGender"
+                android:padding="6dp"
+                android:text="Genul dumneavoastră:"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider_gender"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView_register_gender"
+                android:layout_centerHorizontal="true"
+                android:background="@color/darker_gray" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_register_gender"
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_register_gender"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masculin"
+                    android:textColor="@color/darker_gray"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feminin"
+                    android:textColor="@color/darker_gray"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prefer să nu spun"
+                    android:textColor="@color/darker_gray"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL_gender"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/imageViewPwd"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/password" />
+
+            <TextView
+                android:id="@+id/textView_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imageViewPwd"
+                android:padding="6dp"
+                android:text="Introduceți parola :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_register_password1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register_password"
+                android:layout_toEndOf="@+id/imageViewPwd"
+                android:text="*(Parola trebuie să conțină minim 4 caractere, o litera mare și niciun spațiu liber)*"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/divider_pwd"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView_register_password1"
+                android:layout_centerHorizontal="true"
+                android:background="@color/darker_gray" />
+
+            <EditText
+                android:id="@+id/editText_register_password"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register_password1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/imageViewPwd"
+                android:background="@color/transparent"
+                android:hint="Introduceți parola"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:id="@+id/imageView_show_hide_pwd"
+                android:layout_below="@+id/textView_register_password1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL_confirmPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL_pwd"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/imageViewPwdConfirm"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_confirmpwd" />
+
+            <TextView
+                android:id="@+id/textView_register_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imageViewPwdConfirm"
+                android:padding="6dp"
+                android:text="Confirmați parola :"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider_confirm_pwd"
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textView_register_confirm_password"
+                android:layout_centerHorizontal="true"
+                android:background="@color/darker_gray" />
+
+            <EditText
+                android:id="@+id/editText_register_confirm_password"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_register_confirm_password"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/imageViewPwdConfirm"
+                android:background="@color/transparent"
+                android:hint="Introduceți din nou parola"
+                android:textColorHint="@color/darker_gray"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:id="@+id/imageView_show_hide_pwd1"
+                android:layout_below="@+id/textView_register_confirm_password"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL_confirmPwd"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:text="Inregistrare"
+            android:textStyle="bold"
+            style="@style/MyButtonStyle"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

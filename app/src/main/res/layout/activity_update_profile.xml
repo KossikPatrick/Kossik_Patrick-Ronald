@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfileActivity"
+    android:background="@drawable/background1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/top_background1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_update_profile_head"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="Vă puteți actualiza detaliile profilului acum!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:padding="15dp"
+        android:layout_marginTop="-170dp"
+        android:background="@drawable/border">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RL_name"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageViewName"
+                android:src="@drawable/name"
+                android:layout_centerVertical="true"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_update_profile_name"
+            android:text="Numele dumneavoastră:"
+
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/imageViewName"/>
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:id="@+id/divider_name"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView_update_profile_name"
+                android:background="@color/darker_gray" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_update_profile_name"
+            android:layout_below="@+id/textView_update_profile_name"
+            android:background="@color/transparent"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/imageViewName"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:hint="Introduceți numele complet"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RL_dob"
+            android:layout_below="@+id/RL_name"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageViewDob"
+                android:src="@drawable/ic_birthday"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_update_profile_dob"
+            android:text="Data nașterii:"
+
+            android:layout_toEndOf="@+id/imageViewDob"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:id="@+id/divider_dob"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView_update_profile_dob"
+                android:background="@color/darker_gray" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_update_profile_dob"
+            android:layout_below="@+id/textView_update_profile_dob"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/transparent"
+            android:inputType="date"
+            android:padding="6dp"
+            android:layout_toEndOf="@+id/imageViewDob"
+            android:focusable="false"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+
+            android:hint="Selectați data nașterii"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RL_gender"
+            android:layout_below="@+id/RL_dob"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/border">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageViewGender"
+                android:src="@drawable/ic_gender"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_update_profile_gender"
+            android:layout_toEndOf="@+id/imageViewGender"
+            android:text="Genul:"
+
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:id="@+id/divider_gender"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView_update_profile_gender"
+                android:background="@color/darker_gray" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group_update_gender"
+            android:layout_below="@+id/textView_update_profile_gender"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masculin"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feminin"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/radio_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prefer să nu spun"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_upload_profile_pic"
+            android:layout_below="@+id/RL_gender"
+            android:text="Încărcați poza de profil"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textStyle="bold"
+            style="@style/MyButtonStyle"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_profile_update_email"
+            android:layout_below="@+id/button_upload_profile_pic"
+            android:text="Actualizați adresa de e-mail"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            style="@style/MyButtonStyle"
+            android:layout_marginRight="70dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_update_profile"
+            android:layout_below="@+id/button_profile_update_email"
+            android:text="Actualizați profilul"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textStyle="bold"
+            style="@style/MyButtonStyle1"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigationMenu"
+        android:background="@color/white"
+        app:itemIconSize="30dp"
+        app:labelVisibilityMode="unlabeled"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation_menu"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/viewDivider"
+        android:background="@color/black"
+        android:layout_above="@+id/bottomNavigationMenu"/>
+</RelativeLayout>

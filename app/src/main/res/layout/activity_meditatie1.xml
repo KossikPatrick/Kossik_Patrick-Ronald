@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="44dp"
+        android:text="Mindfulness pentru începători"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagineView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/meditatie1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/baseline_play_arrow_24"
+        android:contentDescription="play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagineView" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/baseline_pause_24"
+        android:contentDescription="pause"
+        app:layout_constraintBaseline_toBaselineOf="@+id/playButton"
+        app:layout_constraintStart_toEndOf="@+id/playButton" />
+
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/baseline_fast_forward_24"
+        android:contentDescription="forward"
+        app:layout_constraintStart_toStartOf="@+id/playButton"
+        app:layout_constraintTop_toBottomOf="@+id/playButton" />
+
+    <Button
+        android:id="@+id/rewindButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_fast_rewind_24"
+        android:contentDescription="rewind"
+        app:layout_constraintBaseline_toBaselineOf="@+id/forwardButton"
+        app:layout_constraintStart_toStartOf="@+id/playButton" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="558dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="174dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <TextView
+        android:id="@+id/textYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:text="Vizionează pe YouTube"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/song_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meditație creată de Maria Nicolau"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

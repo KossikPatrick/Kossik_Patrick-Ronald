@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Licenta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="title1">
+        <item>Mindfulness pentru începători</item>
+        <item>Iertarea și vindecarea trecutului</item>
+        <item>ANXIETATE | Schimbarea Credințelor Negative </item>
+        <item>Inspirație pentru dimineață</item>
+        <item>Încrederea în sine</item>
+        <item>ANXIETATE 2 | Vindecarea anxietății</item>
+        <item>Vindecarea fricii de boală</item>
+
+
+    </string-array>
+    <string-array name="title2">
+        <item>Sunete liniștite ale pădurii</item>
+        <item>Pârâu de munte</item>
+        <item>Sunet flaut himalayan</item>
+        <item>Vas cântător tibetan</item>
+        <item>Muzică de meditație</item>
+        <item>Muzică relaxantă pian</item>
+        <item>Muzică relaxantă vioară</item>
+        <item>Sunete Lofi</item>
+        <item>Muzică ambientală</item>
+        <item>Sunete binaurale</item>
+
+
+    </string-array>
+    <string-array name="title">
+        <item>Aspecte generale ale anxietății</item>
+        <item>Fiziopatologia tulburărilor anxioase</item>
+        <item>Simptomele anxietății</item>
+        <item>Anxietatea sănătoasă și cea nesănătoasă</item>
+        <item>Particularătățile atacului de panică</item>
+        <item>Simptome ale atacului de panică</item>
+        <item>Factori declanșatori ai atacului de panică</item>
+        <item>Caracteristicile tulburării de panică</item>
+        <item>Criterii de diagnostic ale tulburării de panică</item>
+        <item>Tratamentul tulburării de panică</item>
+
+    </string-array>
+    <string name="Aspecte_generale">\u0009\u0009\u0009\u0009 Anxietatea se caracterizează printr-o stare de frică, panică uneori, agitație interioară și exterioară, cel mai adesea fără nici un fel de justificare.
+         Anxietatea apare ca răspuns în urma unei situații aparent inofensive sau în urma conflictelor emoționale interne și subiective care sunt necunoscute de către mintea conștientă a persoanei în cauză. Atunci când anxietatea vine ca răspuns în urma unei situații sau obiect, se numește fobie.
+        \n \u0009\u0009\u0009\u0009Mulți dintre noi se confruntă cu griji, temeri ale vieții de zi cu zi sau cu diverse stări caracteristice de anxietate. Aceste stări sau emoții sunt normale și pot fi chiar utile, ele ne pot mobiliza energia pentru a realiza diversele obiective pe care le stabilim sau ne pot ajuta să ne focusăm. Cu toate acestea, tulburările anxioase sunt copleșitoare pentru persoanele care se confruntă cu ele.
+        \n \u0009\u0009\u0009\u0009 Cele mai multe persoane care prezintă simptome ale tulburărilor anxioase s-au obișnuit să evite și să se teamă de situațiile în care este prezentă anxietatea. Consecințele negative ale anxietății influențează toate aspectele vieții clientului, de la muncă până la viața personală și bineînțeles sănătatea psihică și fizică a acestuia.
+         \n \u0009\u0009\u0009\u0009Anxietatea poate fi un simptom al unui conflict emoțional intern al clientului, conflict ce apare atunci când anumite emoții, amintiri sau impulsuri sunt suprimate pentru a nu amenința existența individului. Starea de anxietate reprezintă și o amenințare asupra ego-ului și stimei de sine, de exemplu în cazul anxietății de performanță.
+         \n \u0009\u0009\u0009\u0009Anxietatea mai poate fi privită și ca un răspuns învățat la evenimentele amenințătoare cu care ne confruntăm. Starea de anxietate devine astfel asociată cu cicumstanțele evenimentului respectiv, iar mediul înconjurător devine un trigger fără a exista un pericol real. De asemenea, modul în care evaluăm stimulii din mediul înconjurător ca fiind periculoși poate produce și menține starea de anxietate.
+         \n \u0009\u0009\u0009\u0009Atunci când anxietatea nu este gestionată, se instalează tulburările anxioase caracterizate de stări continue sau periodice de anxietate sau frică difuză. Starea de anxietate este însoțită și se manifestă prin diverse simptome precum insomnie, iritabilitate, oboseală, agitație, palpitații, amețeală, leșin, transpirație abundentă, respirație neregulată. Multe dintre aceste simptome apar și în alte tulburări psihice sau în situații normale de stres și frică. Ele sunt considerate nevrotice atunci când apar în lipsa unei condiții psihice sau fizice și în situațiile pe care oamenii le gestionează de cele mai multe ori cu ușurință.
+        \n \u0009\u0009\u0009\u0009 Persoanele care se confruntă cu tulburări anxioase au un focus al controlului scăzut, fiind extrem de inconfortabili și simțindu-se neputincioși în situații neplăcute, chiar și atunci când sunt ajutați de cei din jur.
+        \n \u0009\u0009\u0009\u0009 Cei trei factori ai vulnerabilității în ceea ce privește tulburările anxioase sunt:
+ \n \u0009\u0009\u0009\u0009•	Anxietatea ca trăsătură
+ \n \u0009\u0009\u0009\u0009•	Locul controlului
+ \n \u0009\u0009\u0009\u0009•	Stilul defensiv
+        \n \u0009\u0009\u0009\u0009 Bineînțeles, aceștia sunt influențați la rândul lor de factorii de mediu și de cei genetici.
+       \n \u0009\u0009\u0009\u0009 (G. Andrews, M. Creamer, R. Crino, C. Hunt, L. Lampe, A. Page, 2007).
+</string>
+    <string name="Fiziopatologia"> \u0009\u0009\u0009\u0009 La fel cum părinții transmit genetic anumite comportamente sau trăsături fizice, tulburările anxioase pătrund în structurile familiei și la nivel genetic. Studiile efectute care au ca subiecți gemeni identici,care împart același ADN în proporție de 100%, arată că dacă unul dintre gemeni prezintă o tulburare pshică, există șanse de 50% ca și celălalt să se confrunte cu același gen de tulburare. Pe lângă factorul genetic, mai intervin mediul și experiențele pe care copilul le experimentează și acumulează de-a lungul vieții.
+  \n \u0009\u0009\u0009\u0009  Corpul uman are ca scop menținerea homeostaziei. Tot ceea ce vine din mediul exterior și perturbă homeostazia este interpretat ca fiind factor stresor. Homeostazia este reinstalată prin răspunsul psihologic care vine ca reacție la factorul stresor.
+   \n \u0009\u0009\u0009\u0009 Răspunsul ca urmare a apariției factorului stresor declanșează o cascadă hormonală în interiorul corpului uman. Se eliberează hormonul corticotrop care la rândul lui determină eliberarea hormonilor de stres (glucocorticoide și epinefrine) de la nivelul cortexului adrenal. Răspunsul la stres se activează automat atunci când există un pericol care amenință homeostazia sau atunci când persoana anticipează existența unui pericol. Amigdala este principalul modulator al răspunsului de stres/frică la stimulii din mediul înconjurător. Este centrul care înregistrează semnificația emoțională a stimulilor stresori. Amigdala primește input de la neuronii din cortex, informația fiind de cele mai multe ori la nivel conștient și având semnificații și interpretare abstractă. De exemplu, o persoană susceptibilă la anxietate poate manifesta un răspuns de tip anxios atunci când se află blocată în trafic sau într-un loc aglomerat prin activarea mecanismului descris mai sus. Amigdala, de asemenea, primește informații care trec de cortex și se manifestă la nivel inconștient. În cazul victimelor abuzurilor care se află într-o situație ce nu prezintă nici un pericol, trigger-ul care declanșează anxietatea este la nivel inconștient. Atunci când se activează, amigdala cauzează hiperactivitate la nivel creierului, aspect ce se corelează cu simptomele fizice ale anxietății. Răspunsul la stres implică activarea axei formată din hipotalam, glanda pituitară și suprarenală.
+         \n \u0009\u0009\u0009\u0009   (Charles I. Shelton, 2004)
+   </string>
+    <string name="simptomele">
+        \u0009\u0009\u0009\u0009Excitația este răspunsul care apare într-o situație amenințătoare și mobilizează trecerea la acțiune. Atunci când acțiunea nu este posibilă apar manifestări care reprezintă schimbări fiziologice asociate răspunsului de tipul luptă sau fugi. Astfel, apare accelarea ritmului cardiac, redirecționarea sângelui dinspre organele interne spre mușchi, senzația de amețeală, dureri de cap, hiperventilație, diminuarea atenției (G. Andrews, M. Creamer, R. Crino, C. Hunt, L. Lampe, A. Page, 2007).
+\n \u0009\u0009\u0009\u0009Cele mai frecvente simptome ale anxietății sunt:
+\n \u0009\u0009\u0009\u0009•	Simptome respiratorii și de piept: respirație întretăiată, respirație accelerată, respirație slabă, gâfâit, presiune în piept, flegmă în gât, senzația de sufocare, bâlbâit;
+\n \u0009\u0009\u0009\u0009•	Reacții epidermice: transpirație, mâncărime, bufeuri de înfierbânțeală și senzația de frig, îmbujorare;
+\n \u0009\u0009\u0009\u0009•	Reacții cardiace și de circulație a sângelui: bătăi puternice de inimă, palpitații, senzația de leșin, hipertensiune, hipotensiune;
+\n \u0009\u0009\u0009\u0009•	Simptome intestinale: pierderea poftei de mâncare, greață, durere sau disconfort abdominal, vomă;
+\n \u0009\u0009\u0009\u0009•	Simptome musculare: tremurături, zbaterea pleoapelor, nervozitate, reacții de tresărire, gestul de a bate din picioare, picioare tremurânde, înțepenire, insomnie.
+        \n \u0009\u0009\u0009\u0009(A. Ellis, 2016).
+
+    </string>
+    <string name="sanatoasa">
+      \u0009\u0009\u0009\u0009   Anxietatea sănătoasă contribuie la conservarea vieții și se soldează cu rezultate bune spre deosebire de anxietatea nesănătoasă. Anxietatea sănătoasă ne ajută să ne ținem sub control propriile emoții și să facem față situațiilor dificile într-o manieră eficientă.
+ \n \u0009\u0009\u0009\u0009Anxietatea nesănătoasă sau panica are consecințe contrare: pierderea controlului asupra propriei persoane și imposibilitatea de a face față eficient problemelor cu care persoana se confruntă. Anxietatea nesănătoasă ia forma panicii, terorii, ororii, fobiilor, a tuturor afecțiunilor fizice și psihosomatice. Temerile dezadapatitive provoacă adesea sentimente copleșitoare de anxietate atunci când nu se manifestă nici un pericol în jur sau când acesta este mult prea mic pentru a le justifica. De asemenea, aceste spaime sunt exagerate și generalizate, iar persoana are tendința de a vedea lucrurile în alb și negru, fără nuanțe intermediare de gri.
+ \n \u0009\u0009\u0009\u0009Anxietatea poate să apară cu privire la:
+ \n \u0009\u0009\u0009\u0009•	Socializare
+ \n \u0009\u0009\u0009\u0009•	Căutarea unui loc de muncă
+ \n \u0009\u0009\u0009\u0009•	Activitatea profesională
+ \n \u0009\u0009\u0009\u0009•	Sporturi
+ \n \u0009\u0009\u0009\u0009•	Cursuri de instruire
+ \n \u0009\u0009\u0009\u0009•	Evenimente traumatizante
+ \n \u0009\u0009\u0009\u0009•	Dezechilibrul de stres post traumatic
+ \n \u0009\u0009\u0009\u0009•	Starea de sănătate
+ \n \u0009\u0009\u0009\u0009•	Anxietatea indusă chimic
+ \n \u0009\u0009\u0009\u0009•	Consumul de droguri sau alcool
+ \n \u0009\u0009\u0009\u0009•	Bâlbâială
+ \n \u0009\u0009\u0009\u0009•	Resimțirea sau manifestarea panicii
+ \n \u0009\u0009\u0009\u0009•	Spații deschise
+ \n \u0009\u0009\u0009\u0009•	Spații închise
+ \n \u0009\u0009\u0009\u0009•	Animale
+ \n \u0009\u0009\u0009\u0009•	Înălțime
+ \n \u0009\u0009\u0009\u0009•	Trenuri
+ \n \u0009\u0009\u0009\u0009•	Poduri
+         \n \u0009\u0009\u0009\u0009(A. Ellis, 2016)
+    </string>
+    <string name="panica">
+       \u0009\u0009\u0009\u0009 Atacul de panică are drept caracteristică principală o perioadă de frică intensă sau disconfort, acompaniată de simptome cognitive și somatice. Atacul de panică apare și escaladează brusc și este însoțit adesea de sentimentul de pericol, de sentimentul de moarte iminentă și de dorința de a scăpa. Poate să apară în contextul oricărei tulburări de tip anxios, sau în alte tulburări psihice precum depresie, isterie, consum de substanțe sau in condiții medicale generale precum cele cardiace și respiratorii. Frica experimentată în atacul de panică are o intensitate maximă, este copleșitoare, apare sentimentul de pierdere a controlului și de moarte iminentă. De multe ori, persoana care experimentează un atac de panică are senzația că experimentează un atac de cord. Cu timpul se poate instala și fobofobia, adică teama de a nu trăi aceeași frică pe care a suferit-o în atacul de panică.
+        \n \u0009\u0009\u0009\u0009(Eugen Jurca, 2018).
+    </string>
+    <string name="simptomeatac">
+      \u0009\u0009\u0009\u0009 •	Teama de moarte, de sfărșitul lumii, de a nu înnebuni, de a nu avea un atac de cord, de a nu avea un atac cerebral, de a nu pierde conrolul, de a nu leșina, de nu se îmbolnăvi, teama de necunoscut;
+ \n \u0009\u0009\u0009\u0009•	Dezorientare: cum am ajuns aici?;
+ \n \u0009\u0009\u0009\u0009•	Senzația de irealitate: chiar și un mediu familiar pare ciudat;
+ \n \u0009\u0009\u0009\u0009•	Percepții intensificate: tot ceea ce se află în jur pare prea rapid, zgomotos, stălucitor;
+ \n \u0009\u0009\u0009\u0009•	Sentimente de tristețe și de soartă implacabilă: sentimente de tristețe și supărare care apar brusc și sunt copleșitoare;
+ \n \u0009\u0009\u0009\u0009•	Iritabilitate: incapacitatea de a face față micilor enervări;
+ \n \u0009\u0009\u0009\u0009•	Amețeală: însoțită de gândul recurent o să cad;
+ \n \u0009\u0009\u0009\u0009•	Transpirație: însoțită de gândul transpir, deci sunt bolnav, ceva este în neregulă cu mine;
+ \n \u0009\u0009\u0009\u0009•	Palpitații: însoțite de gândul o să-mi plesnească inima, o să fac un atac de cord;
+ \n \u0009\u0009\u0009\u0009•	Senzația de gheară în piept: nu pot să respir;
+ \n \u0009\u0009\u0009\u0009•	Durere în piept: însoțită de frica de a nu avea un atac de cord;
+ \n \u0009\u0009\u0009\u0009•	Zgomote în urechi: însoțite de senzații ciudate la nivelul capului și gândul ca poate apărea un atac cerebral;
+ \n \u0009\u0009\u0009\u0009•	Furnicături în mâini, picioare sau în jurul gurii: însoțite de gândul că apare un atac cerebral;
+ \n \u0009\u0009\u0009\u0009•	Mi-a înțepenit limba: de asemenea, poate apărea gândul unui atac cerebral;
+ \n \u0009\u0009\u0009\u0009•	Leșinul.
+         \n \u0009\u0009\u0009\u0009(S. Trickett, 2007).
+
+    </string>
+    <string name="declansatori">
+     \u0009\u0009\u0009\u0009   •	Factorii stresanți legați de o pierdere semnificativă: sunt de cele mai multe ori factorii declanșatori ai unui atac de panică. Pierderea, separarea de o persoană dragă, divorțul, plecarea copilului de acasă, pierderea locului de muncă, pierderi financiare, reprezintă frecvent factorii care stau la baza atacului de panică. Ulterior atacurile de panică se pot declanșa și prin factori imaginari sau de frica de a nu experiementa un nou atac de panică.
+\n \u0009\u0009\u0009\u0009•	Schimbări semnificative precum schimbări la locul de muncă, schimbări în programul zilnic, în rutina zilnică sau în structura familiei.
+\n \u0009\u0009\u0009\u0009•	Consumul exagerat de alcool sau droguri stimulente precum amfetamine, ecstasy, marijuana.
+\n \u0009\u0009\u0009\u0009•	Tulburări psihice preexistente precum fobii, anxietatea socială, tulburarea post-traumatică de stres.
+
+    </string>
+    <string name="caracteristici">
+       \u0009\u0009\u0009\u0009  Tulburările anxioase au în comun frica excesivă și anxietatea, precum și modificările comportamentale asociate. Frica reprezintă răspunsul emoțional la un pericol iminent real sau presupus, în timp ce anxietatea constă în anticiparea unui pericol (Manual de diagnostic și clasificare statistică a tulburărilor mintale, 2016). Frica este frecvent asociată cu creșteri rapide ale stimulării vegetative, necesară în situațiile de luptă sau fugi.
+\n \u0009\u0009\u0009\u0009Tulburările anxioase se diferențiază unele de altele prin tipurile de obiecte sau situații care induc frica, anxietatea sau comportamentul evitant, precum și prin ideație asociată. Tulburările anxioase au tendința de a fi frecvent comorbide unele cu altele, ele pot fi diferențiate prin analiza tipurilor de situații care induc frica sau sunt evitate și prin conținutul ideilor sau convingerilor asociate.
+\n \u0009\u0009\u0009\u0009Tulburările anxioase diferă de frică și anxietate prin faptul că sunt excesive sau persistă după finalizarea etapelor de dezvoltare corespunzătoare. Ele diferă și de frica sau anxietatea tranzitorie, deseori induse de stres, prin caracterul prelungit, durata fiind uneori mai scurtă la copii. Persoanele cu tulburări anxioase supraestimează pericolul situațiilor de care se tem sau pe care le evită. Multe dintre tulburările anxioase se dezvoltă în copilărie și au tendința de a persista în lipsa tratamentului, iar majoritatea apar mai frecvent la femei decât la bărbați.
+\n \u0009\u0009\u0009\u0009Atacul de panică poate apărea în contextul oricărei tulburări anxioase, dar reprezintă elementul central în tulburarea de panică. Tulburarea de panică este caracterizată de atacuri de panică recurente care includ declanșarea unei stări de frică intense, acompaniată de simptome fizice (palpitații, transpirație, tremur), precum și de simptome cognitive (frica de a muri, de a pierde controlul sau de a înnebuni). Aceste atacuri de panică recurente și neașteptate se asociază cu teama persistentă în ceea ce privește viitoarele atacuri de panică și îngrijorare în ceea ce privește posibilele consecințe ale atacurilor de panică precum leșinul sau atacul cardio-vascular. Totodată, apar și schimbările la nivel comportamental precum evitarea anumitor locuri sau activităti și implicarea în comportamente de siguranță (clientul se simte confortabil să iasă din casă doar acompaniat de cineva).
+        \n \u0009\u0009\u0009\u0009(Randi E. McCabe, Martin M. Antony, 2006).
+
+    </string>
+    <string name="criterii">
+   \u0009\u0009\u0009\u0009 A.	Atacuri de panică imprevizibile, recurente care ating un punct culminant în decurs de câteva minute, interval în care se manifestă patru sau mai multe din următoarele simptome:
+\n \u0009\u0009\u0009\u0009•	Palpitații, bătăi puternice ale inimii sau accelarea frecvenței cardiace
+\n \u0009\u0009\u0009\u0009•	Transpirații;
+\n \u0009\u0009\u0009\u0009•	Tremur sau frisoane;
+\n \u0009\u0009\u0009\u0009•	Dispnee sau senzația de sufocare;
+\n \u0009\u0009\u0009\u0009•	Senzația de asfixiere;
+\n \u0009\u0009\u0009\u0009•	Dureri sau disconfort precordial;
+\n \u0009\u0009\u0009\u0009•	Greață sau disconfort abdominal;
+\n \u0009\u0009\u0009\u0009•	Senzație de amețeală, instabilitate, cap gol sau lipotimie;
+\n \u0009\u0009\u0009\u0009•	Senzație de frig sau căldură;
+\n \u0009\u0009\u0009\u0009•	Parastezii;
+\n \u0009\u0009\u0009\u0009•	Derealizarea sau depersonalizarea;
+\n \u0009\u0009\u0009\u0009•	Frica de a pierde controlul sau de a înnebuni;
+\n \u0009\u0009\u0009\u0009•	Frica de moarte.
+\n \u0009\u0009\u0009\u0009B.	Cel puțin unul dintre atacurile de panică a fost urmat, timp de cel puțin o lună, de una sau de ambele din următoarele:
+\n \u0009\u0009\u0009\u00091.	Preocuparea sau îngrijorarea persistentă privind apariția unui nou atac de panică sau a consecințelor acestuia;
+\n \u0009\u0009\u0009\u00092.	O schimbare semnificativ dezadaptativă a comportamentului provocată de atac.
+\n \u0009\u0009\u0009\u0009C.	Perturbarea nu poate fi atribuită efectelor fiziologice ale unei substanțe sau unei afecțiuni medicale.
+\n \u0009\u0009\u0009\u0009D.	Perturbarea nu este mai bine explicată de o altă tulburare mintală.
+\n \u0009\u0009\u0009\u0009Studiile epidemiologice indică faptul că tulburarea de panică însoțită sau nu de agorafobie are o prevalență între 1,1-2,7% la un an și prevalență de 2,0-4,7% pentru toată durata vieții (Eaton și colab., 1991; Kessler și colab.,1994, Kessler, Berglund și colab., 2005, Kessler, Chiu și colab., 2005, Offord și colab., 1996 apud David A. Clark, Aaron T. Beck 2012). Deși atacurile de panică apar și la copii, prevalența globală a tulburării de panică prezintă o creștere treptată pe parcursul vieții.
+</string>
+    <string name="tratament">
+       \u0009\u0009\u0009\u0009 Tratamentul tulburării de panică poate fi împărțit în două: medicamentos și nemedicamentos. Cele două forme de terapie se completează reciproc.
+\n \u0009\u0009\u0009\u0009Terapia medicamentoasă abordează procesele neurobiologice care stau la baza tulburării de panică, iar terapia nemedicamentoasă se bazează pe rolul factorilor cognitivi, comportamentali sau ambientali în instalarea și evoluția tulburării de panică.
+\n \u0009\u0009\u0009\u0009Terapia medicamentoasă se bazează pe următoarele clase de medicamente:
+\n \u0009\u0009\u0009\u0009•	Medicamente beta-blocante - blochează locul unde adrenalina interacționează cu celule organismului și face ca ea să producă simptomele cunoscute;
+\n \u0009\u0009\u0009\u0009•	Medicamente care cresc concentrația de serotonină la nivelul sinapselor neuronale, precum antidepresivele (fluoxetina, paroxetina, ipramina, serotonina) care contrabalansează acțiunea norepinefrinei;
+\n \u0009\u0009\u0009\u0009•	Medicamente care reduc excitabilitatea neuronului, precum tranchilizantele și benzodiazepine.
+\n \u0009\u0009\u0009\u0009Înainte de a lua tratament medicamentos este esențială identificarea altor tulburări psihiatrice concomitente și excluderea altor afecțiuni organice pe care persoana le poate avea și care pot genera atacuri de panică. De asemenea, trebuie exclusă o tulburare de abuz de substanțe.
+\n \u0009\u0009\u0009\u0009Medicamentele antidepresive sunt prima alegere în tratamentul pentru atacul de panică, ele acționează după o perioadă de latență de aproximativ 2 săptămâni și se administrează timp îndelungat, ajungând la peste un an pentru a consolida rezultatele.
+\n \u0009\u0009\u0009\u0009Benzodiazepinele acționează imediat în cazul atacului de panică, ducând la liniștirea rapidă a simptomelor, în funcție de calea de administrare, însă nu se recomandă administrarea lor mai mult de 2-3 săptămâni.
+\n \u0009\u0009\u0009\u0009Tratamentul medicamentos are ca scop combaterea fricii și ușurarea simptomelor noradrenergice și maschează procesele psihopatologice care le susțin. Tratamentul medicamentos al atacului de panică este în mare măsură doar un tratament simptomatologic care de multe ori menține subiectul într-o poziție de dependență față de el.
+\n \u0009\u0009\u0009\u0009Tratamentul psihologic învață clientul cu deprinderi de a identifica și neutraliza atacul de panică din primele momente, de a se decondiționa de stimuli și situații panicogene, de a-și schimba schemele cognitive și gândurile negative automate care contribuie la permantizarea atacurilor de panică.
+\n \u0009\u0009\u0009\u0009Clientul învață să identifice factorii favorizanți, factorii declanșantori și își construiește un alt mod de relație cu lumea și un alt program de viață și recreere care că evite acești factori.
+\n \u0009\u0009\u0009\u0009Psihoterapia cuprinde mai multe module dedicate unei ținte de pe lanțul psihopatologic care inițiază și susține atacurile de panică:
+\n \u0009\u0009\u0009\u0009•	Modulul care cuprinde tehnicile de expunere la stimuli și situațiile panicogene cu scopul decondiționării subiectului;
+\n \u0009\u0009\u0009\u0009•	Modulul care curpinde restructurarea cognitivă;
+\n \u0009\u0009\u0009\u0009•	Controlul respirației și stăpânirea senzației de sufocare;
+\n \u0009\u0009\u0009\u0009•	Metode de relaxare musculară progresivă;
+\n \u0009\u0009\u0009\u0009•	Vizualizarea și imageria creativă;
+\n \u0009\u0009\u0009\u0009•	Tehnici de reglare emoțională, de sporire a atenției și de acceptare radicală mindfulness;
+\n \u0009\u0009\u0009\u0009•	Tehnici de rezolvare a problemelor;
+\n \u0009\u0009\u0009\u0009•	Metode de relaționare interpersonală;
+\n \u0009\u0009\u0009\u0009•	Metode care se adresează spiritualității subiectului.
+\n \u0009\u0009\u0009\u0009Terapia psihologică ia în considerare caracteristicile subiectului, temperamentul lui, atitudinile și credințele lui, modelul imaginar în care acesta își formulează cazul și așteptările terapeutice. Prin psihoterapie se urmărește creșterea abilității clientului de a înțelege mecanismele psihologice de producere a atacului de panică și dobândirea de abilități în ceea ce privește combaterea acestora. Se utilizează psihoeducația, metode experimentale, metode grafice, de joc de rol, biblioterapia.
+    </string>
+    <string name="jurnalcum"> \u0009\u0009\u0009\u0009 Titlul jurnalului trebuie să conțină emoțiile resimțite în ziua respectivă.
+\n \u0009\u0009\u0009\u0009O mică lista cu emoțiile umane:
+ \n \u0009\u0009\u0009\u0009-pozitive: dragoste, bucurie, recunoștință, apreciere, mândrie, motivație, optimism, euforie, pace, entuziasm etc.
+\n \u0009\u0009\u0009\u0009 -negative: tristețe, melancolie, demotivare, anxietate, rușine, plictiseală, oboseală, abandon, frică, furie, singurătate, ură etc.
+</string>
+    <string name="jurnalexemplu"> \u0009\u0009\u0009\u0009Conținutul jurnalului trebuie să cuprindă răspunsuri la următoarele întrebări:
+\n \u0009\u0009\u0009\u0009Când am simțit emoția respectivă?
+\n \u0009\u0009\u0009\u0009Ce am gândit în acele momente?
+ \n \u0009\u0009\u0009\u0009Cum m-am simțit fizic în acele momente?
+ \n \u0009\u0009\u0009\u0009Ce am făcut în acele momente?
+ \n \u0009\u0009\u0009\u0009Cum m-am simțit apoi?
+\n \u0009\u0009\u0009\u0009Cum mă simt acum?</string>
+
+    <string name="jurnalex"> Bucurie, anxietate, oboseală </string>
+    <string name="jurnalexcon">Astăzi am simțit bucurie în momentul în care am reușit să mă trezesc de dimineață fără un nivel prea mare de anxietate.
+În acele momente m-am gândit că poate totuși nu totul este atât de gri precum am crezut mereu, ceea ce mi-a oferit o oarecare speranță. După am fost la sală pentru antrenamentul zilnic, unde am simțit puțină anxietate, de la efortul depus inima a început să îmi pulseze și simțeam că am palpitații. Am încercat să mă controlez prin respirațiile abdominale, care au ajutat într-un final.
+Pe cât de rău m-am simțit la sală, după ce am ieșit de acolo, știind că mă întorc spre casă anxietatea a scăzut la un nivel decent, însă au început unele crampe abdominale. Acum când scriu, în jurul orei 23:25, mă simt puțin obosit, orele de muncă și-au făcut simțite prezența.
+
+    </string>
+
+</resources>

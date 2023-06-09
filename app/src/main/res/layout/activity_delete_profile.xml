@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteProfileActivity"
+    android:background="@drawable/background1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:background="@drawable/top_background1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_delete_user_head"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:text="Vă puteți șterge contul acum. Vă rugăm să introduceți parola actuală și să verificați înainte de a continua"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+
+            android:padding="15dp"
+            android:layout_marginTop="-100dp"
+            android:background="@drawable/border">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RL_pwd"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageViewPwd"
+                android:src="@drawable/password"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_delete_user_pwd"
+                android:layout_toEndOf="@+id/imageViewPwd"
+
+                android:text="Parola:"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:id="@+id/divider_pwd"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView_delete_user_pwd"
+                android:background="@color/darker_gray" />
+
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_delete_user_pwd"
+                android:layout_below="@+id/textView_delete_user_pwd"
+                android:hint="Introduceți parola"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/transparent"
+                android:layout_toEndOf="@+id/imageViewPwd"
+                android:textColorHint="@color/darker_gray"
+                android:padding="6dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+            <ImageView
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:id="@+id/imageView_show_hide_pwd"
+                android:layout_below="@+id/textView_delete_user_pwd"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_delete_user_authenticate"
+                android:layout_below="@+id/RL_pwd"
+                android:text="Autentificare"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="70dp"
+                android:textStyle="bold"
+                style="@style/MyButtonStyle"
+                android:layout_marginRight="70dp"/>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_centerVertical="true"
+                android:id="@+id/progressBar"
+                android:layout_centerHorizontal="true"
+                android:elevation="10dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/border"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView_delete_user_authenticated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="6dp"
+                android:textStyle="bold"
+                android:text="Profilul tău nu este încă autentificat/verificat!"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button_delete_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_delete_user_authenticated"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                style="@style/MyButtonStyle"
+                android:layout_marginRight="70dp"
+                android:text="Ștergeți utilizatorul" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

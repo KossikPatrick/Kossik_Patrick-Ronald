@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jurnal.jurnalbtn"
+    android:background="@drawable/background1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardMaxElevation="5dp"
+        android:id="@+id/notecard">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:id="@+id/note"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/border">
+
+                <TextView
+
+                    android:id="@+id/jurnalcum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/jurnalcum"
+                    android:textColor="@color/black"
+
+                    android:textSize="20sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jurnalexemplu"
+
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/jurnalexemplu"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/jurnalbtnex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notecard"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="110dp"
+        android:text="Exemplu jurnal scris"
+        android:textColor="@color/black"
+        style="@style/MyButtonStyle"/>
+
+
+</RelativeLayout>
